@@ -1,8 +1,12 @@
 body {
-	width: 66%;
-	margin-left: 40px;
+	max-width: 960px;
+	margin: auto;
 	padding-left: 50px;
 	border-left: 6px solid #DDDDDD;
+}
+
+header {
+	margin-top: 20px;
 }
 
 
@@ -36,7 +40,7 @@ h3 {
 .article-link, .article-link:hover {
 	color: #000000;
 	font-weight: 300;
-	text-decoration:none;
+	text-decoration: none;
 }
 
 article > p {
@@ -48,6 +52,8 @@ article > p:first-letter {
   font-size: 80px;
   color: #E0E0E0;
   font-weight: 200;
+  margin-right: 10px;
+  position: relative;
 }
 
 article > h4 {
@@ -58,4 +64,5 @@ article > h4 {
 	color: #E0473E;
 	font-size: 20px;
 	text-align: right;
+	text-decoration: none;
 }
